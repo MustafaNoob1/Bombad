@@ -130,7 +130,6 @@ if game.PlaceId == 74260430392611 then
                 end
             end
         end
-    end
     }
 
     FarmTab:Dropdown{
@@ -161,7 +160,7 @@ if game.PlaceId == 74260430392611 then
         while wait() do
             if selectedEggValue then
                 local args = {
-                    [1] = selectedEggValue
+                    [1] = selectedEggValue,
                     [2] = 2
                 }
 
