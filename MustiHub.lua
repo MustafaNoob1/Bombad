@@ -123,7 +123,7 @@ if game.PlaceId == 74260430392611 then
             while wait() do
                 if  selectedRebirthValue then
                     local args = {
-                        [1] = selectedRebirthValue;
+                        [1] = selectedRebirthValue,
                     }
                 
                     game:GetService("ReplicatedStorage"):WaitForChild("Packages", 9e9):WaitForChild("Knit", 9e9):WaitForChild("Services", 9e9):GetChildren()[6]:WaitForChild("RF", 9e9):WaitForChild("jag känner en bot, hon heter anna, anna heter hon", 9e9):InvokeServer(unpack(args))
