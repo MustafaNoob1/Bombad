@@ -1,5 +1,4 @@
-if game.PlaceId == 74260430392611 then
-    local CurrentVersion = "Rebirth Champions: Ultimate"
+local CurrentVersion = "Rebirth Champions: Ultimate"
 
     -- Library
     local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
@@ -169,4 +168,3 @@ if game.PlaceId == 74260430392611 then
         end
     end
     }
-end
