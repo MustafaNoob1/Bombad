@@ -1,3 +1,11 @@
+assert(firesignal, "Your exploit does not support firesignal.")
+local UserInputService: UserInputService = game:GetService("UserInputService")
+local RunService: RunService = game:GetService("RunService")
+UserInputService.WindowFocusReleased:Connect(function()
+   RunService.Stepped:Wait()
+   pcall(firesignal, UserInputService.WindowFocused)
+end)
+
 if game.PlaceId == 74260430392611 then
     local CurrentVersion = "Rebirth Champions: Ultimate"
 
