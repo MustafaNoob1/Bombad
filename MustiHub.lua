@@ -121,7 +121,7 @@ if game.PlaceId == 74260430392611 then
         Callback = function(state)
             isFarmingRebirth = state
             while wait() do
-                if selectedRebirthValue then
+                if selectedRebirthValue and isFarmingRebirth == true then
                     local args = {
                         [1] = selectedRebirthValue;
                     }
