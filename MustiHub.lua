@@ -63,6 +63,7 @@ if game.PlaceId == 74260430392611 then
         ["Nuclear"] = "Nuclear",
         ["Atlantis"] = "Atlantis",
         ["Kingdom"] = "Kingdom",
+        ["Hacker"] = "Hacker",
     }
 
     -- Farm Tab
@@ -152,6 +153,7 @@ if game.PlaceId == 74260430392611 then
             "Nuclear",
             "Atlantis",
             "Kingdom",
+            "Hacker",
         },
         Callback = function(item)
             selectedEggValue = EggsList[item]
