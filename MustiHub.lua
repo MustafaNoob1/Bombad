@@ -171,7 +171,7 @@ if game.PlaceId == 74260430392611 then
             if selectedEggValue then
                 local args = {
                     [1] = selectedEggValue,
-                    [2] = 60
+                    [2] = 2
                 }
 
                 game:GetService("ReplicatedStorage"):WaitForChild("Packages", 9e9):WaitForChild("Knit", 9e9):WaitForChild("Services", 9e9):GetChildren()[23]:WaitForChild("RE", 9e9):GetChildren()[3]:FireServer(unpack(args))
